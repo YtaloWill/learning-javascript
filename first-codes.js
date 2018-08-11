@@ -57,3 +57,6 @@ var result = x + y - z * a / b; // result 3.5
 
 console.log(result);
 
+// change html things
+
+document.getElementById('text').innerText = "It's basically a text";
