@@ -1,4 +1,3 @@
-// all errors are shown on console from browser
 
 alert('Hello World! :D \nLets go to codes!');
 /*
@@ -16,15 +15,20 @@ var married = true;
 alert(ageFriend + '\n' + president);
 
 // console.log is a command for write no console from browser
+// functions are little programs in great program
+
+function line() {
+    console.log('---------------------------')
+}
 
 console.log(married); // result true
-console.log('---------------------------');
+line(); // calling function
 
 // Arrays
 
 var languages = ['java', 'c++', 'python'];
 console.log(languages[0]); // result java
-console.log('---------------------------');
+line();
 
 //objects
 
@@ -35,13 +39,14 @@ var humanPeople = {
 };
 
 console.log(humanPeople.name); //result Jesus
-console.log('---------------------------');
+line();
 
 /*  MATHEMATICAL OPERATIONS
     + plus 
     - minus
     / divided
     * times
+    % mod (rest of divided)
     var++ ++var increment
     var-- --var decrement
     var += accumulator
@@ -51,3 +56,4 @@ var x = 2, y = 6, z = 9, a = 1, b = 2;
 var result = x + y - z * a / b; // result 3.5
 
 console.log(result);
+
