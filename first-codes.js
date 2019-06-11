@@ -1,5 +1,7 @@
 
 alert('Hello World! :D \nLets go to codes!');
+confirm('Confirm! Or no, I\'m just a message, not a guard');
+prompt('Type below, please ;-;');
 /*
     create variables with first letter low and other word with high
     and the variables can be maked in a line
@@ -18,7 +20,7 @@ alert(ageFriend + '\n' + president);
 // functions are little programs in great program
 
 function line() {
-    console.log('---------------------------')
+    console.log('---------------------------');
 }
 
 console.log(married); // result true
